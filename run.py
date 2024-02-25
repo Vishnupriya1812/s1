@@ -79,9 +79,9 @@ def value_iteration(transition_probs, rewards, gamma=0.99, tol=1e-6):
 # Run Policy Iteration
 policy_pi, values_pi = policy_iteration(transition_probs, rewards)
 print("Policy (Policy Iteration):", policy_pi)
-print("Values (Policy Iteration):", values_pi)")
+print("Values (Policy Iteration):", values_pi)
 
 # Run Value Iteration
 policy_vi, values_vi = value_iteration(transition_probs, rewards)
 print("Policy (Value Iteration):", policy_vi)
-print("Values (Value Iteration):", values_vi)
+print("Values (Value Iteration):", values_vi)")
